@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-      - export DEPLOYPATH=/home2/elgor248/public_html/
-          - /bin/cp -R * $DEPLOYPATH
+      - export DEPLOYPATH=/home2/elgor248/public_html/ && /bin/cp -R /home2/elgor248/cpmktd_git/* $DEPLOYPATH
