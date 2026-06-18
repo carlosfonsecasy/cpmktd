@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+      - export DEPLOYPATH=/home2/elgor248/public_html/
+          - /bin/cp -R $CPANEL_BASE_INSTALL_PATH/* $DEPLOYPATH
